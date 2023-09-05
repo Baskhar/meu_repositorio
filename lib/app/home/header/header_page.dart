@@ -65,6 +65,7 @@ class HeaderPage extends StatelessWidget {
                                   'Olá, eu sou o Walysson Cruz',
                                   style: TextStyle(
                                     fontSize: 25,
+                                    fontFamily: 'Merriweather',
                                     color: Colors.white,
                                   ),
                                 ),
@@ -72,6 +73,7 @@ class HeaderPage extends StatelessWidget {
                                   'DESENVOLVEDOR ',
                                   style: TextStyle(
                                     fontSize: 60,
+                                    fontFamily: 'Merriweather',
                                     color: Colors.white,
                                   ),
                                 ),
@@ -82,6 +84,7 @@ class HeaderPage extends StatelessWidget {
                                       'MOBILE',
                                       style: TextStyle(
                                         fontSize: 60,
+                                        fontFamily: 'Merriweather',
                                         fontWeight: FontWeight.bold,
                                         color: Colors.white,
                                       ),
@@ -112,6 +115,7 @@ class HeaderPage extends StatelessWidget {
                                     Text(
                                       'Tenho 21 anos\nBuscando oportunidades de trabalho com o desenvolvimento de aplicativos\nNo atual momento trabalhando como freelancer',
                                       style: TextStyle(
+                                        fontFamily: 'Merriweather',
                                         fontSize: 20,
                                         color: Colors.white,
                                       ),

@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 
 import 'body_page/body_page.dart';
 import 'header/header_page.dart';
@@ -20,9 +20,7 @@ class HomePage extends StatelessWidget {
           SliverToBoxAdapter(
             child: SizedBox(height: 50),
           ),
-          SliverFillRemaining(
-            child: BodyPage(),
-          ),
+          BodyPage(), // Adicione o BodyPage como um novo SliverToBoxAdapter
         ],
       ),
     );
