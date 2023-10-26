@@ -120,44 +120,4 @@ class BodyPage extends StatelessWidget {
     );
   }
 
-// Widget buildAppWidget({
-//   required String image,
-//   required String title,
-//   required String description,
-// }) {
-//   return Column(
-//     children: [
-//       Expanded(
-//         child: DeviceFrame(
-//           device: Devices.android.onePlus8Pro,
-//           orientation: Orientation.portrait,
-//           screen: Image.asset(image),
-//         ),
-//       ),
-//       SizedBox(height: 20),
-//       Text(
-//         title,
-//         style: TextStyle(
-//           fontSize: 25,
-//           fontFamily: 'Bacasime Antique',
-//           fontWeight: FontWeight.bold,
-//         ),
-//         textAlign: TextAlign.center,
-//       ),
-//       SizedBox(height: 10),
-//       Padding(
-//         padding: const EdgeInsets.all(8.0),
-//         child: Text(
-//           description,
-//           style: TextStyle(
-//             fontSize: 20,
-//             //color: Colors.grey,
-//             //fontFamily: 'Bacasime Antique',
-//           ),
-//           textAlign: TextAlign.center,
-//         ),
-//       ),
-//     ],
-//   );
-// }
 }
